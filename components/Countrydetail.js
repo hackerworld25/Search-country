@@ -95,7 +95,7 @@ const Country = () => {
               </p>
               <p>
                 <b>Languages: </b>
-                <span className="para8">{countryData.langugae?.join(', ')}</span>
+                <span className="para8">{countryData.langugae ?.join(', ')}</span>
               </p>
             </div>
             {countryData.borders.length !== 0 && <div className="border">
