@@ -1,6 +1,6 @@
 import Countrycard from "./Countrycard";
 import { useEffect, useState } from "react";
-import CountrylistShemer from "./countrylistShemer";
+import CountrylistShemer from "./CountrylistShemer";
 // import Data from '../countrydata'
 const Allcountry = ({ query }) => {
   const [Data, setData] = useState([]);
