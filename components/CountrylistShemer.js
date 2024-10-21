@@ -1,4 +1,4 @@
-import "./countrylistShemer.css";
+import "./CountrylistShemer.css";
 
 function countrylistShemer() {
   const mapped = Array.from({ length: 20 }).map((el) => {
